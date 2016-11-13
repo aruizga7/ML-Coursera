@@ -1,0 +1,2 @@
+"0","# remove outcome from train"
+"0","train$classe = NULL"

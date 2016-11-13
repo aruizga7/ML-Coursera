@@ -1,0 +1,4 @@
+"0","# filter columns on: belt, forearm, arm, dumbell"
+"0","filter = grepl(""belt|arm|dumbell"", names(train))"
+"0","train = train[, filter]"
+"0","test = test[, filter]"

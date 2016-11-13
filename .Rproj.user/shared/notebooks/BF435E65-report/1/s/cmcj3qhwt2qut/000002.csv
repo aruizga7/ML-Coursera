@@ -1,0 +1,4 @@
+"0","# remove columns with NA, use test data as referal for NA"
+"0","cols.without.na = colSums(is.na(test)) == 0"
+"0","train = train[, cols.without.na]"
+"0","test = test[, cols.without.na]"

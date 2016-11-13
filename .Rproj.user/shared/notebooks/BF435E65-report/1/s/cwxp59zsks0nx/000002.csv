@@ -1,0 +1,7 @@
+"0","# get CV's prediction decoding"
+"0","pred.cv = matrix(bst.cv$pred, nrow=length(bst.cv$pred)/num.class, ncol=num.class)"
+"0","pred.cv = max.col(pred.cv, ""last"")"
+"0","# confusion matrix"
+"0","confusionMatrix(factor(y+1), factor(pred.cv))"
+"2","Error in requireNamespaceQuietStop(""e1071"") : package e1071 is required
+"

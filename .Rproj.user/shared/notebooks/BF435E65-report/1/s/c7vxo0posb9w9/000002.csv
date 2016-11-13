@@ -1,0 +1,8 @@
+"0","# convert data to matrix"
+"0","train.matrix = as.matrix(train)"
+"0","mode(train.matrix) = ""numeric"""
+"0","test.matrix = as.matrix(test)"
+"0","mode(test.matrix) = ""numeric"""
+"0","# convert outcome from factor to numeric matrix "
+"0","#   xgboost takes multi-labels in [0, numOfClass)"
+"0","y = as.matrix(as.integer(outcome)-1)"

@@ -1,0 +1,10 @@
+base
+sparklyr
+knitr
+ggplot2
+lattice
+caret
+corrplot
+Rtsne
+xgboost
+e1071

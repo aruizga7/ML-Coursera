@@ -1,0 +1,3 @@
+"0","# check for zero variance"
+"0","zero.var = nearZeroVar(train, saveMetrics=TRUE)"
+"0","zero.var"
